@@ -1,8 +1,12 @@
+body {
+    margin: 40px;
+}
+
 h1 {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     padding: 2px;
-    margin: 1px;
+    margin-bottom: 50px;
     font-weight: 800;
     text-decoration: none;
     color: red;
@@ -19,6 +23,16 @@ h2 {
     background-color: yellowgreen;
 }
 
+.content {
+    min-height: calc(100vh - 120px);
+    /* 80px header + 40px footer = 120px  */
+}
+
+img {
+    max-width: 1800px;
+    max-height: 300px;
+}
+
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -28,10 +42,18 @@ p {
     background-color: whitesmoke;
 }
 
+em {
+    font-family: 'Tangerine', serif;
+}
+
 .logo {
     background-size: cover;
     background-image: url("img/logo-emblem-black-1000.png");
     background-color: whitesmoke;
-    height: 200px;
-    width: 200px;
+    height: 30px;
+    width: 30px;
+}
+
+footer{
+    display: inline-flex;
 }
