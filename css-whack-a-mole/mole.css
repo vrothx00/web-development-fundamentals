@@ -1,8 +1,11 @@
 /* Your code here */
 .wgs {
-  height: 640px;
-  position: absolute;
-  width: 220px;
+  display: inline-block;
+  height: 1060px;
+  position: relative;
+  display: inline-block;
+  width: 420px;
+  overflow: hidden;
 }
 
 .wgs__mole-head {
@@ -13,10 +16,15 @@
 
 .wgs__dirt-pile {
   height: 640px;
-  position: relative;
+  position: absolute;
   width: 482px;
   top: 262px;
   bottom: 0;
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 1216px;
+
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
