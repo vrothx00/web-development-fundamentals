@@ -25,11 +25,21 @@ function oddReverse(arr) {
 function secondPower(arr) {
     // Return an array containing all indices that are powers of 2
     // Your code here
+    let newArr = [];
+    for(let i = 1; i < arr.length; i *= 2) {
+        newArr.push(arr[i]);
+    }
+    return newArr
 }
 
 function nthPower(arr, n) {
     // Return an array containing all indices that are powers of n
     // Your code here
+    let newArr = [];
+    for(let i = 1; i < arr.length; i *= n) {
+        newArr.push(arr[i]);
+    }
+    return newArr
 }
 
 function firstHalf(arr) {
